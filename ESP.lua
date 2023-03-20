@@ -28,6 +28,7 @@ Part0.TopSurface = Enum.SurfaceType.Smooth
 local ESP = Instance.new("Highlight")
 ESP.OutlineTransparency = 1
 ESP.FillTransparency = 0
+ESP.Parent = Part0
 ESP.FillColor = Color3.fromRGB(136, 45, 45)
 for i,v in pairs(cors) do
 	spawn(function()
